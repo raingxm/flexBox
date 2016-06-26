@@ -36,3 +36,9 @@ aside {
 main {
 	flex: 1;
 }
+
+@media screen and (max-width: 480px) {
+  .container > * {
+    flex-basis: 100%;
+  }
+}
