@@ -1,0 +1,7 @@
+.grid__row {
+	display: flex;
+}
+
+.grid__column {
+	flex: 1;
+}
