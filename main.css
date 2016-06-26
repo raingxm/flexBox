@@ -1,7 +1,38 @@
-.grid__row {
-	display: flex;
+header {
+	background: red;
 }
 
-.grid__column {
+header h1 {
+	margin: 0;
+}
+
+aside {
+	background: green;
+}
+
+main {
+	background: pink;
+}
+
+footer {
+	background: yellow;
+}
+
+/* for flex box */
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+header, footer {
+	flex-basis: 100%;
+}
+
+aside {
+	flex-basis: 200px;
+}
+
+main {
 	flex: 1;
 }
